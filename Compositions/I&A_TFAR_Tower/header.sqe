@@ -1,0 +1,9 @@
+version=54;
+name="I&A_TFAR_Tower";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"tfar_antennas",
+	"A3_Structures_F_Ind_WindPowerPlant"
+};

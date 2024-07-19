@@ -1,0 +1,364 @@
+version=54;
+center[]={7694.4248,5,4528.4658};
+class items
+{
+	items=11;
+	class Item0
+	{
+		dataType="Marker";
+		position[]={8.4892578,0.99756145,-10.163086};
+		name="crate_spawn_location";
+		type="Empty";
+		id=52;
+		atlOffset=0.99756145;
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={8.8129883,0.45597935,-10.000977};
+			angles[]={0,2.4711046,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=53;
+		type="Land_JumpTarget_F";
+		atlOffset=0.45597935;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.1420898,0.41155195,1.8271484};
+			angles[]={-0,3.0860331,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			createAsSimpleObject=1;
+			disableSimulation=1;
+		};
+		id=54;
+		type="Land_CampingTable_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.2045898,1.0358319,1.8046875};
+			angles[]={-0,3.0792611,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+			name="crate_spawner";
+			disableSimulation=1;
+		};
+		id=67;
+		type="Land_MultiScreenComputer_01_sand_F";
+		atlOffset=0.78574657;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ObjectTextureCustom1";
+				expression="_this setObjectTextureGlobal [1,_value]";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="z\cav\addons\flag\data\flag_00_ca.paa";
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="ObjectTextureCustom2";
+				expression="_this setObjectTextureGlobal [2,_value]";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="z\cav\addons\flag\data\flag_00_ca.paa";
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="ObjectTextureCustom3";
+				expression="_this setObjectTextureGlobal [3,_value]";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="z\cav\addons\flag\data\flag_00_ca.paa";
+					};
+				};
+			};
+			nAttributes=4;
+		};
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.71044922,0.28405476,2.0244141};
+			angles[]={-0,3.8973255,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			createAsSimpleObject=1;
+			disableSimulation=1;
+		};
+		id=68;
+		type="Box_NATO_Ammo_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-3.684082,0,2.2363281};
+			angles[]={-0,0.94485259,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=69;
+		type="ACE_medicalSupplyCrate_advanced";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.70849609,1.0410533,4.1494141};
+			angles[]={0,1.6953738,-0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=182;
+		type="SignAd_Sponsor_ARMEX_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ObjectTextureCustom0";
+				expression="_this setObjectTextureGlobal [0,_value]";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="textures\cratespawnersign.paa";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.27685547,0.41931152,4.7392578};
+			angles[]={-0,1.6495305,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=215;
+		type="Land_BagFence_Long_F";
+	};
+	class Item8
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.43115234,0.97341299,1.71875};
+			angles[]={0,2.2422554,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=216;
+		type="Land_BagFence_Long_F";
+		atlOffset=0.26225805;
+	};
+	class Item9
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.5151367,0.41931152,0.52050781};
+			angles[]={-0,6.2459226,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=217;
+		type="Land_BagFence_Long_F";
+	};
+	class Item10
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-5.1831055,0.41931152,1.1425781};
+			angles[]={-0,3.5128224,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=218;
+		type="Land_BagFence_Long_F";
+	};
+};

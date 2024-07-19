@@ -1,0 +1,11 @@
+version=54;
+name="I&A_Bluefor_Manpad";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Data_F",
+	"CUP_CAMisc",
+	"rhsusf_c_troops",
+	"rhsusf_c_statics"
+};

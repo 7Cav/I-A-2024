@@ -1,0 +1,14 @@
+version=54;
+name="I&A_Base_Defence";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Ui_F",
+	"A3_Structures_F_Argo_Military_Bunkers",
+	"A3_Characters_F_Common",
+	"A3_Static_F_Jets_SAM_System_01",
+	"A3_Static_F_Sams_Radar_System_01",
+	"rhsgref_c_vehicles_ret",
+	"cav_bravo_characters"
+};
