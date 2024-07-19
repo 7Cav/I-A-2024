@@ -11,10 +11,14 @@
 - **[board1]** Player actions for resupply crates
 - **[crate_spawn_location]** Crate spawner location
 - **[convoyMarker_0#]** Convoy start Point to end point meets with another ConvoyMarker Variable
-- **[custom_transport_0]**
 - **[defence_spawn_#]** Base Anti Air
 - **[respawn]** player respawn point
-- **[empty_32]**
-- **[empty_7]**
-- **[objective_squad_#]** 
-- **[marker_ai_spawn_friendly_ground_units]**
+- **[VVS_car_1]** Vehicle Spawner Position
+- **[VVS_tank_1]** Second Vehicle Spawner Position
+- **[marker_ai_spawn_friendly_ground_units]** No Known Function but needed
+- **[objective_squad_#]** No Known Function but needed
+- **[custom_transport_#]** No Known Function but needed
+- **[cleanup_1]** Vehicle Return/Delete Area Marker
+- **[VVS_air_1]** Aircraft Spawner Position
+- **[]**
+- **[]**
