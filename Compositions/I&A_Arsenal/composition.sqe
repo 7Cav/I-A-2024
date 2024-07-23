@@ -1,0 +1,42 @@
+version=54;
+center[]={7610.6958,5,4381.2422};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0,0.89242268,0};
+			angles[]={-0,1.5870106,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="[this,""Charlie"",true,true,true,false,false] call cScripts_fnc_doStarterCrate;" \n "[this] call mScripts_fnc_createArsenal;";
+			description="Starter Crate";
+			dynamicSimulation=1;
+		};
+		id=242;
+		type="B_supplyCrate_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ammoBox";
+				expression="[_this,_value] call bis_fnc_initAmmoBox;";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};

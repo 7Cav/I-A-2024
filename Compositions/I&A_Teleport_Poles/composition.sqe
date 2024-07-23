@@ -1,0 +1,100 @@
+version=54;
+center[]={7473.1914,5,4527.8066};
+class items
+{
+	items=2;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.2431641,3.9768047,-0.18115234};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			name="teleport_pole_1";
+			disableSimulation=1;
+		};
+		id=348;
+		type="Cav_Flag_00_Flag_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="hideObject";
+				expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=1;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={1.2426758,3.9768047,0.18164063};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			name="teleport_pole_2";
+			disableSimulation=1;
+		};
+		id=349;
+		type="Cav_Flag_00_Flag_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="hideObject";
+				expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=1;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+};

@@ -1,0 +1,8 @@
+version=54;
+name="I&A_Misc_Empty_Markers";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Ui_F"
+};

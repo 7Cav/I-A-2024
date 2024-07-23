@@ -1,0 +1,55 @@
+version=54;
+center[]={7371.9663,5,4380.2339};
+class items
+{
+	items=5;
+	class Item0
+	{
+		dataType="Marker";
+		position[]={-1.7529297,0.5616827,-3.2446289};
+		name="marker_ai_spawn_friendly_ground_units";
+		type="Empty";
+		angle=135;
+		id=0;
+		atlOffset=0.5616827;
+	};
+	class Item1
+	{
+		dataType="Marker";
+		position[]={1.3071289,2.6838503,0.052246094};
+		name="objective_squad_0";
+		type="Empty";
+		angle=45.000004;
+		id=1;
+		atlOffset=2.6838503;
+	};
+	class Item2
+	{
+		dataType="Marker";
+		position[]={0.13867188,1.5532351,1.1376953};
+		name="objective_squad_1";
+		type="Empty";
+		angle=45.000004;
+		id=2;
+		atlOffset=1.5532351;
+	};
+	class Item3
+	{
+		dataType="Marker";
+		position[]={0.22460938,1.505353,-1.4135742};
+		name="objective_squad_2";
+		type="Empty";
+		angle=44.999973;
+		id=4;
+		atlOffset=1.505353;
+	};
+	class Item4
+	{
+		dataType="Marker";
+		position[]={0.083496094,0,3.4663086};
+		name="custom_transport_0";
+		type="Empty";
+		angle=199.99997;
+		id=26;
+	};
+};

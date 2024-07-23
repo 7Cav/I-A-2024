@@ -1,0 +1,8 @@
+version=54;
+name="I&A_Teleport_Poles";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"cav_flag"
+};

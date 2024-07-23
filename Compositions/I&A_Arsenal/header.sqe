@@ -1,0 +1,9 @@
+version=54;
+name="I&A_Arsenal";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Weapons_F_Ammoboxes",
+	"ace_cargo"
+};

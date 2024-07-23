@@ -1,0 +1,14 @@
+version=54;
+name="I&A_Aircraft_Spawner";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Ui_F",
+	"A3_Props_F_Enoch_Military_Equipment",
+	"A3_Props_F_Orange_Humanitarian_Camps",
+	"USAF_A10_C",
+	"A3_Signs_F_Signs_Ad",
+	"A3_Structures_F_System",
+	"RHS_US_A2_AirImport"
+};
