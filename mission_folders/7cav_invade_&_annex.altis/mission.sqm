@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16599;
+		nextID=16645;
 	};
 	class Camera
 	{
-		pos[]={9195.4619,134.02766,11406.552};
-		dir[]={0.25105503,-0.47122154,0.84553444};
-		up[]={0.13412771,0.88201499,0.45173156};
-		aside[]={0.95863992,-4.7730282e-009,-0.28463882};
+		pos[]={26845.598,35.263386,24464.643};
+		dir[]={-0.19194539,-0.54837775,0.81390774};
+		up[]={-0.1258727,0.83622909,0.5337382};
+		aside[]={0.97330284,-1.473818e-007,0.22953622};
 	};
 };
 binarizationWanted=0;
@@ -84147,16 +84147,58 @@ class Mission
 					class PositionInfo
 					{
 						position[]={26846.324,29.090271,24475.527};
-						angles[]={6.2620158,3.0469139,6.2664485};
+						angles[]={6.2620144,3.0469084,6.2664471};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
-						isPlayer=1;
 					};
 					id=17490;
 					type="rhsusf_army_ocp_rifleman";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=3;
+					};
 				};
 			};
 			class Attributes
@@ -89268,7 +89310,7 @@ class Mission
 			text="Checkpoint Delta";
 			type="mil_box";
 			colorName="ColorGreen";
-			angle=217.35495;
+			angle=217.35492;
 			id=17708;
 			atlOffset=-0.00038337708;
 		};
@@ -89292,7 +89334,7 @@ class Mission
 			text="Checkpoint Bravo";
 			type="mil_box";
 			colorName="ColorGreen";
-			angle=204.60095;
+			angle=204.60092;
 			id=17726;
 			atlOffset=-0.00035858154;
 		};
@@ -91385,7 +91427,7 @@ class Mission
 			text="FARP BARCO";
 			type="cav_mil_cav";
 			colorName="ColorBlue";
-			angle=20.184994;
+			angle=20.18499;
 			id=17808;
 			atlOffset=9.1552734e-005;
 		};
