@@ -1,0 +1,331 @@
+version=54;
+center[]={7736.6602,5,4526.3335};
+class items
+{
+	items=3;
+	class Item0
+	{
+		dataType="Layer";
+		name="RRR Pods";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="Domination Start Comp";
+				class Entities
+				{
+					items=6;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={1.6777344,1.3620372,6.6088867};
+							angles[]={-0,3.1568022,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=29;
+						type="USAF_SlingLoad_Ammo";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=0;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={1.8535156,1.3624501,0.10693359};
+							angles[]={-0,3.1420746,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=30;
+						type="USAF_SlingLoad_Fuel";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=0;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={1.9345703,1.3605165,-6.715332};
+							angles[]={-0,0.0097102346,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=31;
+						type="USAF_SlingLoad_Repair";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=0;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item3
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={-3.0585938,0,4.1606445};
+							angles[]={-0,0.82830793,0};
+						};
+						id=32;
+						type="USAF_ServiceMenu_moduleAddRearmService";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="USAF_moduleServiceMenuAdd_RemoveCargo";
+								expression="_this setVariable ['RemoveCargo',_value,true];";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="USAF_moduleServiceMenuAdd_Loadout";
+								expression="_this setVariable ['Loadout',_value,true];";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item4
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={-3.4003906,0,-0.24658203};
+							angles[]={-0,0.82833773,0};
+						};
+						id=33;
+						type="USAF_ServiceMenu_moduleAddRefuelService";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="USAF_moduleServiceMenuAdd_RemoveCargo";
+								expression="_this setVariable ['RemoveCargo',_value,true];";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item5
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={-3.3173828,0,-3.8520508};
+							angles[]={-0,0.82833964,0};
+						};
+						id=34;
+						type="USAF_ServiceMenu_moduleAddRepairService";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="USAF_moduleServiceMenuAdd_RemoveCargo";
+								expression="_this setVariable ['RemoveCargo',_value,true];";
+								class Value
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+				};
+				id=28;
+			};
+		};
+		id=27;
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.2861328,0.74051428,12.035645};
+			angles[]={-0,0.012557072,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=213;
+		type="Land_HBarrier_5_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.0253906,0.74051428,-12.098145};
+			angles[]={-0,3.1759863,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=214;
+		type="Land_HBarrier_5_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=3;
+	};
+	class Links
+	{
+		items=3;
+		class Item0
+		{
+			linkID=0;
+			item0=34;
+			item1=31;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item1
+		{
+			linkID=1;
+			item0=33;
+			item1=30;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=32;
+			item1=29;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

@@ -1,0 +1,11 @@
+version=54;
+name="I&A_Helipad";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"CUP_CAMisc",
+	"A3_Structures_F_Mil_BagFence",
+	"A3_Structures_F_EPA_Civ_Constructions",
+	"A3_Structures_F_Enoch_VR_Helpers"
+};

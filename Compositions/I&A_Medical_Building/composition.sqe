@@ -1,0 +1,243 @@
+version=54;
+center[]={7443.269,5,4528.3979};
+class items
+{
+	items=3;
+	class Item0
+	{
+		dataType="Layer";
+		name="Dom Heal";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Layer";
+				name="Base Objects_1";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="Building_1";
+						class Entities
+						{
+							items=1;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.80664063,0.69999981,0.093261719};
+									angles[]={0,6.2591262,-0};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+									name="medical_1";
+								};
+								id=48;
+								type="Land_Medevac_house_V1_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="DoorStates";
+										expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
+										class Value
+										{
+											class data
+											{
+												singleType="ARRAY";
+												class value
+												{
+													items=3;
+													class Item0
+													{
+														class data
+														{
+															singleType="SCALAR";
+															value=2;
+														};
+													};
+													class Item1
+													{
+														class data
+														{
+															singleType="SCALAR";
+															value=0;
+														};
+													};
+													class Item2
+													{
+														class data
+														{
+															singleType="SCALAR";
+															value=0;
+														};
+													};
+												};
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=0;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+						};
+						id=47;
+					};
+				};
+				id=46;
+			};
+			class Item1
+			{
+				dataType="Layer";
+				name="Door Trigeers_1";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Trigger";
+						position[]={1.4707031,3.5496769,-0.040527344};
+						angle=6.2591105;
+						class Attributes
+						{
+							name="medicalTrigger_1";
+							condition="call{this}";
+							onActivation="call{_handle= [] spawn { " \n "    _gate = medical; " \n "    _trigger = medicalTrigger; " \n "    _sleep = 5; " \n " " \n "    {_gate animateSource _x} forEach [ " \n "        ['Door_1_sound_source', 1],  " \n "        ['Door_2_sound_source', 1],  " \n "        ['Door_1_rot', 1],  " \n "        ['Door_2_rot', 1] " \n "        ]; " \n " " \n "    waitUntil {sleep _sleep; not ((getPos player) inArea _trigger)}; " \n " " \n "    {_gate animateSource _x} forEach [ " \n "        ['Door_1_sound_source', 0],  " \n "        ['Door_2_sound_source', 0],  " \n "        ['Door_1_rot', 0],  " \n "        ['Door_2_rot', 0] " \n "        ]; " \n "    };}";
+							sizeA=2;
+							sizeB=3;
+							sizeC=2;
+							repeatable=1;
+							activationBy="ANYPLAYER";
+						};
+						id=50;
+						type="EmptyDetectorAreaR50";
+						atlOffset=0.43202877;
+					};
+				};
+				id=49;
+				atlOffset=0.43202877;
+			};
+			class Item2
+			{
+				dataType="Trigger";
+				position[]={0.75097656,3.1832657,2.1518555};
+				angle=6.2591105;
+				class Attributes
+				{
+					name="healZone_1";
+					condition="call{this and ((getPos (thisList select 0)) select 2 < 1);}";
+					onActivation="call{{ " \n "    _x setDamage 0;  " \n "    _x setFuel 1; " \n "    _x call ace_medical_treatment_fnc_fullHealLocal;  " \n "} foreach thislist }";
+					sizeA=2.5;
+					sizeB=2;
+					sizeC=2;
+					repeatable=1;
+					activationBy="ANYPLAYER";
+					isRectangle=1;
+				};
+				id=51;
+				type="EmptyDetectorAreaR50";
+				atlOffset=0.065617561;
+			};
+		};
+		id=45;
+		atlOffset=1.8862405;
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.67578125,1.0410533,-0.71728516};
+			angles[]={0,6.2628522,-0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=181;
+		type="SignAd_Sponsor_ARMEX_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ObjectTextureCustom0";
+				expression="_this setObjectTextureGlobal [0,_value]";
+				class Value
+				{
+					class data
+					{
+						singleType="STRING";
+						value="textures\medicalbuildingsign.paa";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.3535156,1.0838132,-1.4887695};
+			angles[]={0,5.6632671,-0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=221;
+		type="Land_PortableLight_double_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						singleType="BOOL";
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+};

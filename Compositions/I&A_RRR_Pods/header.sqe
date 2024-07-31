@@ -1,0 +1,9 @@
+version=54;
+name="I&A_RRR_Pods";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"USAF_ServiceMenu",
+	"A3_Structures_F_Mil_Fortification"
+};

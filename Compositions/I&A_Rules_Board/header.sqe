@@ -1,0 +1,8 @@
+version=54;
+name="I&A_Rules_Board";
+author="=7Cav=SPC.Brian.F";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Structures_F_Civ_InfoBoards"
+};
