@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1293.483,318.07092,18653.262};
-		dir[]={0.81214452,-0.31814021,-0.48916432};
-		up[]={0.27254146,0.94803858,-0.16415533};
-		aside[]={-0.51597208,-4.1350722e-007,-0.85665268};
+		pos[]={12864.667,31.95772,10215.24};
+		dir[]={-0.14434691,-0.39265284,0.90828949};
+		up[]={-0.061627839,0.91968626,0.38778716};
+		aside[]={0.98760742,-3.0122465e-009,0.15695231};
 	};
 };
 binarizationWanted=0;
@@ -81051,12 +81051,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1195.34,299.10745,18832.805};
-				angles[]={0,5.6775727,0};
+				position[]={1195.34,299.10706,18832.805};
+				angles[]={0,5.6775732,0};
 			};
 			id=648;
 			type="ModuleRespawnVehicle_F";
-			atlOffset=11.696411;
+			atlOffset=11.696014;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -81107,7 +81107,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="200";
+							value="1500";
 						};
 					};
 				};
