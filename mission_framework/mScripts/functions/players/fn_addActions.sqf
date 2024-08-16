@@ -40,3 +40,7 @@ crate_spawner addAction[
         "ACE_Track" createVehicle getMarkerPos "crate_spawn_location";
     }
 ];
+
+[teleport_pole_1,"Teleport - Vehicle Farp",teleport_pole_2 ] call cScripts_fnc_teleport; 
+
+[teleport_pole_2,"Teleport - Main Base",teleport_pole_1 ] call cScripts_fnc_teleport; 
