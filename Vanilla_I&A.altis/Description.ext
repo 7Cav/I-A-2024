@@ -4,19 +4,20 @@ onLoadName = "7Cav I&A";
 onLoadMission = "Arma 3 Invade N Annex";
 loadScreen = "textures\logo.paa";
 
-disableChannels[] = {
-    0, // Global
-    {1,false, true} // Side - Text enabled, not voice.
+disableChannels[] = 
+{
+    {0,false, true}, //Global Chat, disabled text, disabled voice
+    {1,true, true} //Side Chat, enabled text, disabled voice
 };
 
 enableTargetDebug = 1;
 enableDebugConsole = 1;
-corpseManagerMode = 3;
+corpseManagerMode = 1;
 corpseLimit = 10;
 corpseRemovalMinTime = 10;
-corpseRemovalMaxTime = 20;
+corpseRemovalMaxTime = 60;
 disposalCheckPeriod = 5;
-minPlayerDistance = 0;
+minPlayerDistance = 50;
 weaponholderManagerMode = 1;
 weaponholderLimit = 10;
 weaponholderRemovalMinTime = 10;

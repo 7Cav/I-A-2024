@@ -32,6 +32,22 @@
 		TRUE
 	],
 	[
+		"Unknown Squad", // Display Name
+		'Side Objective Completed!', // On capture display
+		[],
+		["O_V_Soldier_TL_hex_F", "O_V_Soldier_JTAC_hex_F", "O_V_Soldier_M_hex_F", "O_V_Soldier_Exp_hex_F", "O_V_Soldier_LAT_hex_F", "O_V_Soldier_Medic_hex_F"],
+		8,
+		TRUE
+	],
+	[
+		"Unknown Squad", // Display Name
+		'Side Objective Completed!', // On capture display
+		[],
+		["O_R_recon_TL_F", "O_R_recon_JTAC_F", "O_R_recon_medic_F", "O_R_recon_exp_F", "O_R_recon_GL_F", "O_R_recon_AR_F", "O_R_recon_M_F", "O_R_recon_LAT_F"],
+		8,
+		TRUE
+	],
+	[
 		"Enemy Mortars", // Display Name
 		'Side Objective Completed!', // On capture display
 		[],

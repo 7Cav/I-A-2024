@@ -1,4 +1,4 @@
-_boxList = [baseBox_0,baseBox_1,baseBox_2,baseBox_3,baseBox_4];
+_boxList = [baseBox_0,baseBox_1,baseBox_2,baseBox_3,baseBox_4,baseBox_5];
 
 waitUntil {sleep 1; !isNil "mScripts_itemList"};
 

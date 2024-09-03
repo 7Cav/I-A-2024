@@ -9,7 +9,8 @@ _transportClasses = [
 	"Cav_B_A_Helicopter_Tra_coPilot_F", 
 	"Cav_B_A_Helicopter_Tra_CrewChief_F", 
 	"Cav_B_A_Helicopter_Tra_DoorGunner_F", 
-	"Cav_B_A_Helicopter_Tra_Pilot_B1_F"
+	"Cav_B_A_Helicopter_Tra_Pilot_B1_F",
+	"B_Helipilot_F"
 ];
 
 if (allPlayers findIf {typeOf _x in _transportClasses} > -1) exitWith {
