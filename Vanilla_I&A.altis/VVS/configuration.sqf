@@ -1,7 +1,7 @@
 //	edited by [TF]def 2015 09 20 (0.4.1)
 /**/
 //Only display vehicles for that players side, if true Opfor can only spawn Opfor vehicles and so on.
-VVS_SideOnly = false;
+VVS_SideOnly = true;
 
 //Only set to true if you are making pre-made vehicle lists with VVS_x (i.e VVS_Car)
 VVS_Premade_List = true;
@@ -16,10 +16,10 @@ VVS_Premade_List = true;
 		VVS_Air = ["B_Heli_Light_01_armed_F"];
 */
 
-VVS_Car = ["B_MRAP_01_F","B_MRAP_01_gmg_F","B_MRAP_01_hmg_F","B_APC_Wheeled_01_cannon_F","B_Truck_01_covered_F","B_Truck_01_Repair_F","B_Truck_01_fuel_F","B_Truck_01_ammo_F","B_MBT_01_TUSK_F","B_APC_Tracked_01_rcws_F","I_APC_tracked_03_cannon_F","I_APC_Wheeled_03_cannon_F","I_MBT_03_cannon_F","I_LT_01_cannon_F"];
-VVS_Air = ["B_Plane_CAS_01_dynamicLoadout_F","B_Plane_Fighter_01_F","B_Heli_Light_01_dynamicLoadout_F","B_Heli_Attack_01_dynamicLoadout_F","B_Heli_Transport_03_F","B_Heli_Light_01_F","B_Heli_Transport_01_F","I_Heli_light_03_dynamicLoadout_F"];
+VVS_Car = ["B_MRAP_01_F","B_MRAP_01_gmg_F","B_MRAP_01_hmg_F","B_APC_Wheeled_01_cannon_F","B_Truck_01_covered_F","B_Truck_01_Repair_F","B_Truck_01_fuel_F","B_Truck_01_ammo_F","B_MBT_01_TUSK_F","B_APC_Tracked_01_rcws_F"];
+VVS_Air = ["B_Plane_CAS_01_dynamicLoadout_F","B_Plane_Fighter_01_F","B_Heli_Light_01_dynamicLoadout_F","B_Heli_Attack_01_dynamicLoadout_F","B_Heli_Transport_03_F","B_Heli_Light_01_F","B_Heli_Transport_01_F"];
 VVS_Ship = [];
-VVS_Armored = ["B_MRAP_01_F","B_MRAP_01_gmg_F","B_MRAP_01_hmg_F","B_APC_Wheeled_01_cannon_F","B_Truck_01_covered_F","B_Truck_01_Repair_F","B_Truck_01_fuel_F","B_Truck_01_ammo_F","B_MBT_01_TUSK_F","B_APC_Tracked_01_rcws_F","I_APC_tracked_03_cannon_F","I_APC_Wheeled_03_cannon_F","I_MBT_03_cannon_F","I_LT_01_cannon_F"];
+VVS_Armored = ["B_MRAP_01_F","B_MRAP_01_gmg_F","B_MRAP_01_hmg_F","B_APC_Wheeled_01_cannon_F","B_Truck_01_covered_F","B_Truck_01_Repair_F","B_Truck_01_fuel_F","B_Truck_01_ammo_F","B_MBT_01_TUSK_F","B_APC_Tracked_01_rcws_F"];
 VVS_Autonomous = [];
 VVS_Support = [];
 
