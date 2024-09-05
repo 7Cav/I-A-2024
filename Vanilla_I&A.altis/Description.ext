@@ -6,8 +6,8 @@ loadScreen = "textures\logo.paa";
 
 disableChannels[] = 
 {
-    {0,false, true}, //Global Chat, disabled text, disabled voice
-    {1,true, true} //Side Chat, enabled text, disabled voice
+    {0,true, true}, //Global Chat, disabled text, disabled voice
+    {1,false, true} //Side Chat, enabled text, disabled voice
 };
 
 enableTargetDebug = 1;
@@ -19,7 +19,7 @@ corpseRemovalMaxTime = 60;
 disposalCheckPeriod = 5;
 minPlayerDistance = 50;
 weaponholderManagerMode = 1;
-weaponholderLimit = 10;
+weaponholderLimit = 2;
 weaponholderRemovalMinTime = 10;
 weaponholderRemovalMaxTime = 20;
 

@@ -11,15 +11,15 @@
 	"O_Heli_Attack_02_black_F",
 	"O_APC_Tracked_02_cannon_F",
 	"O_APC_Tracked_02_AA_F",
-	"O_MBT_02_cannon_F",
+//	"O_MBT_02_cannon_F",
 	"O_MRAP_02_hmg_F",
 	"O_MRAP_02_gmg_F",
 	"O_G_Offroad_01_armed_F",
 	"O_G_Offroad_01_AT_F",
-	"O_Quadbike_01_F",
+	"O_Quadbike_01_F"/*,
 	"I_LT_01_cannon_F",
 	"I_LT_01_AA_F",
 	"I_LT_01_scout_F",
-	"I_LT_01_AT_F",
-	"C_Kart_01_Red_F"
+	"I_LT_01_AT_F"
+*/
 ];
