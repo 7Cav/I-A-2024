@@ -14,7 +14,7 @@ crate_spawner addAction [
 		[] remoteExec ["mScripts_fnc_createArsenal",2];
 	}
 
-;
+];
 
 crate_spawner addAction [
 
