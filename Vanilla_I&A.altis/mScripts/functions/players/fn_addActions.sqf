@@ -9,7 +9,7 @@ main_board addAction [
 
 crate_spawner addAction [
 
-	"Pull Full Resupply Crate",
+	"Pull Arsenal Resupply Crate",
 	{
 		[] remoteExec ["mScripts_fnc_createArsenal",2];
 	}
@@ -84,25 +84,6 @@ crate_spawner addAction [
 
 ];
 
-crate_spawner addAction [
-
-	"Remove Objects On Pad",
-	{
-			private _crate = nearestObjects [(getMarkerPos "crateSpawn"),["ACE_MedicalSupplyCrate_advanced","Box_NATO_Equip_F","Box_NATO_WpsLaunch_F","Box_NATO_Ammo_F","ACE_Wheel","ACE_Track"],15];
-			{deleteVehicle _x} forEach _crate;
-	}
-
-];
-
-/*crate_spawner addAction [
-
-	"Pull Medical Crate",
-	{
-		[getMarkerPos "crate_spawn_location","crate_medicalAtlas"] remoteExec ["cScripts_fnc_doSupplyCrate",2]; 
-	}
-
-];*/
-
 crate_spawner addAction[
    
     "Pull Wheel",
@@ -119,6 +100,25 @@ crate_spawner addAction[
     }
 ];
 
+
+crate_spawner addAction [
+
+	"Remove Objects On Pad",
+	{
+			private _crate = nearestObjects [(getMarkerPos "crateSpawn"),["ACE_MedicalSupplyCrate_advanced","Box_NATO_Equip_F","Box_NATO_WpsLaunch_F","Box_NATO_Ammo_F","ACE_Wheel","ACE_Track","Land_Cargo10_grey_F"],15];
+			{deleteVehicle _x} forEach _crate;
+	}
+
+];
+
+/*crate_spawner addAction [
+
+	"Pull Medical Crate",
+	{
+		[getMarkerPos "crate_spawn_location","crate_medicalAtlas"] remoteExec ["cScripts_fnc_doSupplyCrate",2]; 
+	}
+
+];*/
 /*[teleport_pole_1,"Teleport - Vehicle Farp",teleport_pole_2 ] call cScripts_fnc_teleport; 
 
 [teleport_pole_2,"Teleport - Main Base",teleport_pole_1 ] call cScripts_fnc_teleport;*/
