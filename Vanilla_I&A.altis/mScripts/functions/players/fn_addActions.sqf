@@ -88,7 +88,7 @@ crate_spawner addAction[
    
     "Pull Wheel",
     {
-        "ACE_Wheel" createVehicle getMarkerPos "crate_spawn_location";
+        "ACE_Wheel" createVehicle (getMarkerPos "crateSpawn");
     }
 ];
 
@@ -96,7 +96,7 @@ crate_spawner addAction[
    
     "Pull Track",
     {
-        "ACE_Track" createVehicle getMarkerPos "crate_spawn_location";
+        "ACE_Track" createVehicle (getMarkerPos "crateSpawn");
     }
 ];
 
