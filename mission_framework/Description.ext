@@ -4,14 +4,19 @@ onLoadName = "7Cav I&A";
 onLoadMission = "Arma 3 Invade N Annex";
 loadScreen = "textures\logo.paa";
 
-corpseManagerMode = 3;
+corpseManagerMode = 1;
 corpseLimit = 10;
 corpseRemovalMinTime = 10;
-corpseRemovalMaxTime = 20; 
+corpseRemovalMaxTime = 60;
+disposalCheckPeriod = 5;
 minPlayerDistance = 50;
+weaponholderManagerMode = 1;
+weaponholderLimit = 2;
+weaponholderRemovalMinTime = 10;
+weaponholderRemovalMaxTime = 20;
 
 wreckManagerMode = 1;
-wreckLimit = 10;
+wreckLimit = 5;
 wreckRemovalMinTime = 15;
 briefing = -1;
 
@@ -94,7 +99,7 @@ class Params {
 	class ZoneRadius {
 		title = "Zone Radius";
 		values[] = {1,5,10,15, 20, 30, 40, 50, 55, 60, 70, 80, 90, 100, 200, 400, 500, 700, 800, 1000};
-		default = 80;
+		default = 70;
 	};
 	/*class Checks {
 		title = "Number of checks (Finds zones, spawners..)";
