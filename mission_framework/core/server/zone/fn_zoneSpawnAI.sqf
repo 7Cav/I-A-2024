@@ -47,7 +47,8 @@ br_fnc_getPositionNearNoPlayersAtZone = {
 br_fnc_spawnAI = {
 	while {!br_zone_taken} do {
 		// Spawn AI untill reached limit
-		if (missionNamespace getVariable "CAV_SPAWN_UNITS_BOOL")
+		_SPAWNUNITSBOOL=missionNamespace getVariable "CAV_SPAWN_UNITS_BOOL";
+		if (_SPAWNUNITSBOOL) then
 		{
 			while {(count br_ai_groups <= br_min_ai_groups) && (getMarkerColor _spawningMarker == "ColorRed" || !br_radio_tower_enabled)} do {
 				_newPos = [] call br_fnc_getPositionNearNoPlayersAtZone;
