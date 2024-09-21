@@ -9,7 +9,7 @@
  * Nothing
  *
  * Example:
- * [_SleepAmount] call core2_fnc_OBJ_DESTROY_RADIO_LOGIC
+ * [_SleepAmount] spawn core2_fnc_OBJ_DESTROY_RADIO_LOGIC
  *
  * Public: No
  *
