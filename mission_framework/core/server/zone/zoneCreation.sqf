@@ -70,7 +70,11 @@ br_queue_squads_distance = 2000; // When new zone is placed, the max distance to
 br_queue_squads_distance_base = 500; // When new zone is placed, the max distance to the base before AI at old zone need evac
 br_groupsStuckTeleportDelay = 60; // Time before units are teleported into the cargo
 br_custom_units_chosen_offset = 0.2; // Chance of custom groups chosen overall
+//==================================================================================//
+//================================ Toggle Spawns ===================================//
+//==================================================================================//
 
+missionNamespace setVariable ["CAV_SPAWN_UNITS_BOOL",true,true];
 // Creates the zone
 br_fnc_createZone = {
 	if (br_randomly_find_zone) then {

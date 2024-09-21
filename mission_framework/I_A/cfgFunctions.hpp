@@ -23,7 +23,7 @@ class ina {
 		file = "I_A\functions\shared"
 
 		class test2 {};
-
+		class toggle_spawns{};
 	};
 
 };
