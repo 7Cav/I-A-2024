@@ -18,7 +18,7 @@ if (isDedicated || isMultiplayer) then {
 ["7Cav Logistics", "Toggle Spawns",
     {
         params ["_modulePos", "_objectPos"];
-        [_modulePos, _objectPos] call fnc_zenModule_togglespawns;
+        [_modulePos, _objectPos] call mScripts_fnc_zenModule_togglespawns;
     },
     "\A3\ui_f\data\map\vehicleicons\iconCrate_ca.paa"
 ] call zen_custom_modules_fnc_register;
