@@ -34,5 +34,12 @@ class mScripts{
 		class manageCleanup {};
 		class scrapVehicle {};
 	};
+	class modules {
+
+		file = "mscripts\functions\modules";
+
+		class zenModule_togglespawns {};
+		
+	};
 
 };
