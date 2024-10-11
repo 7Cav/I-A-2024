@@ -206,6 +206,8 @@ if (_vehicle iskindOf "MRAP_01_base_F") then {
                 GET_CONTAINER("vehicle_HMMWV")
             ] call FUNC(setCargo);
         };
+        case "rhsusf_M1237_MK19_usarmy_d";
+        case "rhsusf_M1237_MK19_usarmy_W";
         case "rhsusf_m1165a1_gmv_mk19_m240_socom_d";
         case "rhsusf_m1165a1_gmv_mk19_m240_socom_w": {
             [_vehicle, 
@@ -226,7 +228,7 @@ if (_vehicle iskindOf "MRAP_01_base_F") then {
             ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
             ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
             ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
+            ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
             // Vehicle Inventory
             [_vehicle, 
                 GET_CONTAINER("vehicle_strykerDragoon")
@@ -354,6 +356,18 @@ if (_vehicle iskindOf "RHS_MELB_base") then {
     [_vehicle, []] call FUNC(setCargo);
 };
 
+if (_vehicle isKindOf "AFV_Wheeled_01_base_F") then {
+    [_vehicle, 5, -1, false, false] call FUNC(setCargoAttributes);
+    
+    // Emergency kit in case of tire damage and fuel loss.
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
+
+    [_vehicle, 
+        GET_CONTAINER("vehicle_rooikat")
+    ] call FUNC(setCargo);
+};
 
 // Deployable
 if (_vehicle iskindOf "rhs_m2staticmg_base") then {

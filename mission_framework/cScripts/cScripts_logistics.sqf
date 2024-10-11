@@ -171,6 +171,8 @@
         ["USP_OPS_FASTXP_TAN_MC_07", 0],
         ["USP_OPS_FASTXP_TAN_MC_08", 0],
         ["USP_BOONIE_HAT_MC", 0],
+        ["USP_OPSCORE_FASTMTC_MCA_CGSW", 0],
+        ["USP_OPSCORE_FASTMTC_MCA_CSW", 0],
 
         // Ammo
         ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 0],
@@ -204,7 +206,14 @@
         ["B_Carryall_mcamo", 0],
         ["B_Kitbag_mcamo", 0],
         ["UK3CB_B_Backpack_Pocket_OLI", 0],
-        ["UK3CB_B_Backpack_Pocket", 0]
+        ["UK3CB_B_Backpack_Pocket", 0],
+        ["USP_PACK_BREACHER_MC", 0],
+        ["USP_PACK_FASTHAWK", 0],
+        ["USP_PACK_POINTMAN", 0],
+        ["USP_ZIPON_PANEL_CPC_MC", 0],
+        ["USP_ZIPON_PANEL_CPC_SMK_MC", 0],
+        ["USP_ROLLFLAG2", 0],
+        ["USP_PACK_HYDRATION", 0]
     ]],
 
     ["bravo_company_viking", [
@@ -274,6 +283,12 @@
         ["SatchelCharge_Remote_Mag",0],
         ["DemoCharge_Remote_Mag",0],
         ["ClaymoreDirectionalMine_Remote_Mag",0],
+
+        // Backpack
+        ["B_AssaultPack_mcamo", 0],
+        ["USP_REEBOW_3DAP_MC", 0],
+        ["USP_REEBOW_3DAP_ACC1_MC", 0],
+        ["USP_REEBOW_3DAP_ACC10_MC", 0],
 
         // Tools and Items
         ["ACE_Flashlight_MX991",0],
@@ -347,14 +362,20 @@
         ["USP_OPSCORE_FASTMTC_CGTW", 0],
         ["USP_OPSCORE_FASTMTC_CSW", 0],
         ["USP_OPSCORE_FASTMTC_CTW", 0],
+        ["USP_OPSCORE_FASTMTC_MCA_CGSW", 0],
+        ["USP_OPSCORE_FASTMTC_MCA_CSW", 0],
 
         // Weapons
         ["rhs_weap_M136_hp",0],
         ["rhs_weap_M136",0],
         ["rhs_weap_M136_hedp",10],
         ["rhs_weap_m72a7",10],
-        ["dzn_MG_Tripod_M122A1_M240Mount_Carry",0],
+        ["UK3CB_P320_DES",0],
+        ["UK3CB_P320_BLK",0],
 
+        // Optics
+        ["optic_MRCO",0],
+        
         // Ammo
         ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 0],
         ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 50],
@@ -373,7 +394,6 @@
         ["rhs_mag_m664_red_cluster", 0],
         ["rhs_mag_m713_Red", 0],
         ["rhs_mag_m716_yellow", 0],
-        
         ["MRAWS_HE_F", 0],
         ["MRAWS_HEAT_F", 0],
         ["MAA_MAAWS_ASM509", 0],
@@ -390,6 +410,7 @@
         ["SmokeShellPurple",0],
         ["SmokeShellRed",0],
         ["ACE_Chemlight_HiBlue",0],
+        ["ACE_Chemlight_HiGreen",0],
         ["ACE_Chemlight_HiRed",0],
         ["ACE_Chemlight_IR",0],
         ["ACE_M84",0],
@@ -405,11 +426,11 @@
 
         // Tools and Items
         ["ACE_CableTie",0],
-        ["ACE_EntrenchingTool",10],
-        ["ACE_wirecutter",10],
-        ["rhs_weap_rsp30_green",0],
-        ["rhs_weap_rsp30_red",0],
-        ["ACE_SpareBarrel", 4],
+        ["ACE_EntrenchingTool",0],
+        ["ACE_wirecutter",0],
+        ["ACE_SpareBarrel",0],
+        ["ACE_Chemlight_Shield",0],
+        ["ACE_SpraypaintGreen",0],
 
         //cTab
         ["ItemAndroid", 0],
@@ -420,8 +441,7 @@
         ["USP_PVS15", 0],
         ["USP_L4G19", 0],
         ["rhsusf_ANPVS_14", 0],
-        ["rhsusf_ANPVS_15", 0],
-        ["USP_RHINO", 0]
+        ["rhsusf_ANPVS_15", 0]
     ]],
 
     // // // // // // //
@@ -528,7 +548,7 @@
         ["kat_naloxone",20],
         ["kat_carbonate",20],
         ["kat_Painkiller",40],
-        ["kat_PenthroxItem",10],
+        ["kat_Penthrox",10],
         
         // Splints
         ["ACE_splint",40],
@@ -717,7 +737,7 @@
         ["kat_fentanyl",10],
         ["kat_ketamine",20],
         ["kat_nalbuphine",30],
-        ["kat_PenthroxItem",20],
+        ["kat_Penthrox",20],
 
         // Airway Management and Respiration
         ["kat_aatKit",4],
@@ -860,6 +880,41 @@
         ["kat_chestSeal",4],
         ["ACE_quikclot",20],
         ["ACE_packingBandage",20]
+    ]],
+    ["vehicle_rooikat", [
+        // Ammo
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 16], // M856A1 PMAGs
+
+        // Grenades
+        ["HandGrenade",6],
+        ["SmokeShell",6],
+        ["SmokeShellBlue",2],
+        ["SmokeShellPurple",1],
+        ["SmokeShellRed",2],
+        
+        // Chemlights
+        ["ACE_Chemlight_HiBlue",2],
+        ["ACE_Chemlight_HiRed",2],
+        ["ACE_Chemlight_IR",4],
+
+        // Explosives
+        ["SatchelCharge_Remote_Mag",1],
+        ["ACE_M26_Clacker",1],
+
+        // Tools
+        ["ACE_EntrenchingTool",3],
+        ["ACE_wirecutter",1],
+
+        // Medical
+        ["kat_AED",1],
+        ["ACE_epinephrine",4],
+        ["ACE_splint",4],
+        ["kat_naloxone",2],
+        ["ACE_tourniquet",8],
+        ["kat_guedel",4],
+        ["kat_chestSeal",6],
+        ["kat_Painkiller",3],
+        ["ACE_packingBandage",40]
     ]],
 
     // // // // // // // //
@@ -1306,23 +1361,9 @@
         ["USP_OVERWHITE_G3C_MX_MCA_MC", 0],
         ["USP_OVERWHITE_G3C_OR_MCA_MC", 0],
         
-        // Backpack
-        ["B_AssaultPack_mcamo", 0],
-        ["USP_PACK_BREACHER_MC", 0],
-        ["USP_PACK_FASTHAWK", 0],
-        ["USP_PACK_POINTMAN", 0],
-        ["USP_ZIPON_PANEL_CPC_MC", 0],
-        ["USP_ZIPON_PACK_CPC_MC", 0],
-        ["USP_ZIPON_PACK_CPC_BC_MC", 0],
-        ["USP_ZIPON_PANEL_CPC_SMK_MC", 0],
-        ["USP_REEBOW_3DAP_MC", 0],
-        ["USP_REEBOW_3DAP_ACC1_MC", 0],
-        ["USP_REEBOW_3DAP_ACC10_MC", 0],
-        ["USP_ROLLFLAG2", 0],
-        ["USP_PACK_HYDRATION", 0],
-        
         // Medical
         ["ACE_EarPlugs",0],
+        ["KAT_Katmin",0],
         
         // Airway Management and Respiration
         ["kat_chestSeal",0],
@@ -1398,18 +1439,9 @@
         ["UK3CB_P320_DES",0],
         ["UK3CB_P320_BLK",0],
         ["UK3CB_P320_9x19_17Rnd",0],
-        ["acc_flashlight_pistol",0],
-
-        //Backpack
-        ["USP_TACTICAL_PACK_CCT", 0],
-        ["USP_TACTICAL_PACK_CCT2", 0],
-        ["USP_TACTICAL_PACK_CCT3", 0],
-        ["USP_TACTICAL_PACK_CCT4", 0],
-        ["USP_TACTICAL_PACK_CCT5", 0],
-        ["USP_TACTICAL_PACK_CCT6", 0],
-        ["USP_TACTICAL_PACK_CCT7", 0],
-        ["USP_TACTICAL_PACK_CCT8", 0],
-        ["UK3CB_US_B_B_RIF_OCP_Radio", 0]
+        ["rhs_weap_rsp30_green",0],
+        ["rhs_weap_rsp30_red",0],
+        ["acc_flashlight_pistol",0]
     ]],
     ["arsenal_role_fireteamleader", [
         ["ACE_microDAGR", 0],
@@ -1422,18 +1454,9 @@
         ["UK3CB_P320_DES",0],
         ["UK3CB_P320_BLK",0],
         ["UK3CB_P320_9x19_17Rnd",0],
-        ["acc_flashlight_pistol",0],
-
-        //Backpack
-        ["USP_TACTICAL_PACK_CCT", 0],
-        ["USP_TACTICAL_PACK_CCT2", 0],
-        ["USP_TACTICAL_PACK_CCT3", 0],
-        ["USP_TACTICAL_PACK_CCT4", 0],
-        ["USP_TACTICAL_PACK_CCT5", 0],
-        ["USP_TACTICAL_PACK_CCT6", 0],
-        ["USP_TACTICAL_PACK_CCT7", 0],
-        ["USP_TACTICAL_PACK_CCT8", 0],
-        ["UK3CB_US_B_B_RIF_OCP_Radio", 0]
+        ["rhs_weap_rsp30_green",0],
+        ["rhs_weap_rsp30_red",0],
+        ["acc_flashlight_pistol",0]
     ]],
     ["arsenal_role_weapons", [
         // MAAWS ammo
@@ -1590,13 +1613,13 @@
         ["ACE_salineIV_250",0],
         ["ACE_salineIV_500",0],
 
+        ["kat_epinephrineIV",0],
+        
         //Pills and Inhalants
         ["kat_Carbonate",0],
-        ["kat_CarbonateItem",0],
         ["kat_naloxone",0],
         ["kat_Painkiller",0],
-        ["kat_PainkillerItem",0],
-        ["kat_PenthroxItem",0],
+        ["kat_Penthrox",0],
 
         // Massive Hemorrhage Control
         ["kat_reboa",0],
@@ -1688,13 +1711,13 @@
         ["ACE_salineIV_250",0],
         ["ACE_salineIV_500",0],
 
+        ["kat_epinephrineIV",0],
+
         //Pills and Inhalants
         ["kat_Carbonate",0],
-        ["kat_CarbonateItem",0],
         ["kat_naloxone",0],
         ["kat_Painkiller",0],
-        ["kat_PainkillerItem",0],
-        ["kat_PenthroxItem",0],
+        ["kat_Penthrox",0],
 
         // Massive Hemorrhage Control
         ["ACE_tourniquet",0],

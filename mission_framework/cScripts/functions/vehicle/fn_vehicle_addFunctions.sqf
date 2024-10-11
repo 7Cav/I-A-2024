@@ -68,20 +68,20 @@ if (_vehicle iskindOf "Heli_Transport_02_base_F") then {
 };
 
 if (_vehicle iskindOf "RHS_C130J_Base") then {
-    [_vehicle] call FUNC(addLineJump);
-    [_vehicle] call FUNC(addHaloJump);
+    [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
+    [_vehicle,nil,nil,true] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
 if (_vehicle iskindOf "USAF_C130J") then {
-    [_vehicle] call FUNC(addLineJump);
-    [_vehicle] call FUNC(addHaloJump);
+    [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
+    [_vehicle,nil,nil,true] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
 if (_vehicle iskindOf "USAF_C17") then {
-    [_vehicle] call FUNC(addLineJump);
-    [_vehicle] call FUNC(addHaloJump);
+    [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
+    [_vehicle,nil,nil,true] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
@@ -110,5 +110,9 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
 };
 
 if (_vehicle iskindOf "cav_dragoon_base_F") then {
+    [_vehicle] call EFUNC(vehicle,addFlagAction);
+};
+
+if (_vehicle iskindOf "AFV_Wheeled_01_base_F") then {
     [_vehicle] call EFUNC(vehicle,addFlagAction);
 };
